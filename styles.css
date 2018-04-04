@@ -30,3 +30,12 @@ html, body {
   top: 35px;
   z-index: 2000;
 }
+
+.overlay {
+  background: #18B57F;
+  position: absolute;
+  left: 13px;
+  top: 85px;
+  padding: 25px;
+  z-index:20000;
+}

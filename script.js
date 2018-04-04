@@ -4,7 +4,7 @@
 var map = L.map('map').setView([40.786520, -73.907604], 14);
 
 // Add base layer
-L.tileLayer('https://api.mapbox.com/styles/v1/buraksancakdar/cjep4dknmdnaa2qqql1tar01u/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYnVyYWtzYW5jYWtkYXIiLCJhIjoiY2o5b2F0bDNtNThzbjMyczQycGQzbDBidiJ9.N7qypSJrDL65wEEmVfZ6ng', {
+L.tileLayer('https://api.mapbox.com/styles/v1/buraksancakdar/cjflezftyg9iw2sqrkoz42rif/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYnVyYWtzYW5jYWtkYXIiLCJhIjoiY2o5b2F0bDNtNThzbjMyczQycGQzbDBidiJ9.N7qypSJrDL65wEEmVfZ6ng', {
   maxZoom: 18
 }).addTo(map);
 

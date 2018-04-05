@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  color: white;
+  font-family: "Helvetica";
 }
 
 #map {
@@ -18,17 +20,28 @@ html, body {
     
 .layer-picker {
   position: absolute;
-  right: 15px;
-  top: 15px;
-  z-index: 2000;
+  left: 35px;
+  top: 280px;
+  z-index: 30000;
+  background: #CFD0D1;
+  color: #4D4E56;
 }
 
-.radios{
-  font-family:"";
+.layer-picker2 {
   position: absolute;
-  right: 15px;
-  top: 35px;
-  z-index: 2000;
+  left: 35px;
+  top: 310px;
+  z-index: 30000;
+  background: #CFD0D1;
+  color: #4D4E56;
+}
+.nycparks {
+  position: absolute;
+  left: 35px;
+  top: 220px;
+  z-index: 30000;
+  background: #CFD0D1;
+  color: #4D4E56;  
 }
 
 .overlay {
